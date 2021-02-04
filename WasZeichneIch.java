@@ -20,12 +20,14 @@ public class WasZeichneIch extends PApplet
         size(600,400);
     }        
 
-    // Überlege dir, was die Anweisungen in der Methode "wasZeichneIch" auslösen könnten
-    // Verändere die Werte, die den Methoden übergeben werden. Was passiert?
+    // Überlege dir, was die Anweisungen in der Methode "wasZeichneIch" auslösen könnten: Es zeichnet eine Ellipse, einen Strich und ein Rechteck
+    // Verändere die Werte, die den Methoden übergeben werden. Was passiert? Wenn ich size ändere, ändert sich die Größe der Leinwand, wenn ich bei der setup()-Methode etwas verändere, kommt ein Fehler, da er die Variablen nicht kennt, wenn ich bei der ellipse x1 verändere, ändert sich die x-Postion der ellipse genau wie beim Rechteck!
+    
+
     public void wasZeichneIch() {
         line(100, 50, 200, 100);
-        ellipse(100, 200, 50, 100);
-        rect(300, 100, 250, 20);
+        ellipse(80, 200, 50, 100);
+        rect(100, 100, 250, 20);
     }
 
     /**
